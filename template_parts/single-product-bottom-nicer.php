@@ -848,7 +848,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <section style="display:block; max-width:1440px; margin:0 auto; padding-bottom:30px;" class="most-popular">
   <div class="container" style="padding-left:10px; padding-right:10px;">
-    <h2 class="section-title" style="margin-bottom:20px;">Pripremljene kombinacije - jednostavno i brzo</h2>
+    <h2 class="section-title" style="margin-bottom:20px;">Pripravené kombinácie - jednoducho a rýchlo</h2>
 
     <div class="products-grid slider-mobile">
       <?php foreach ($products as $index => $product): ?>
@@ -930,10 +930,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 if ($shirt_count != 1):
                   if ($alt_output == false):
-                    $is_boxers = has_term( array( 'bokserice', 'orto-bokserice' , 'bokserice-sastavi-paket' ), 'product_cat', $current_product_id );
+                    $is_boxers = has_term( array( 'boxerky', 'orto-boxerky' , 'boxerky-zostav-balenie' ), 'product_cat', $current_product_id );
 
                     if ($is_boxers):
-                      $topseler_text = get_field("singlepp_priceper_before","options") . " " . $tmp_price . " " . "€ po boksericama";
+                      $topseler_text = get_field("singlepp_priceper_before","options") . " " . $tmp_price . " " . "€ za boxerky";
                     else:
                       $topseler_text = get_field("singlepp_priceper_before","options") . " " . $tmp_price . " " . get_field("singlepp_priceper_after","options");
                     endif;
@@ -1053,13 +1053,13 @@ document.addEventListener('DOMContentLoaded', function () {
       <!--<h4 style="" class="highlight"><?php echo get_field("singlepp_content_standard_reviews_t1","options"); ?></h4>-->
       <h1 style="color:black;     margin-bottom: 4px;">
 
-          <?php if ( !has_term( array( 'bokserice', 'bokserice-sastavi-paket' ), 'product_cat', get_the_ID() ) ): ?>
+          <?php if ( !has_term( array( 'boxerky', 'boxerky-zostav-balenie' ), 'product_cat', get_the_ID() ) ): ?>
 
           <?php echo get_field("singlepp_content_standard_reviews_t2","options"); ?>
 
           <?php else: ?>
 
-          Nisi sam u potrazi za savršenim boksericama.
+          Nie ste sami v hľadaní dokonalých boxeriek.
 
           <?php endif; ?>
 
@@ -1132,9 +1132,9 @@ document.addEventListener('DOMContentLoaded', function () {
   $reviews_language = get_field("webshop_language", "options");
   if (!$reviews_language) { $reviews_language = "EN"; }
 
-  // Detect if current product belongs to bokserice group
+  // Detect if current product belongs to boxerky group
   $current_product_id = (function_exists('is_product') && is_product()) ? get_queried_object_id() : get_the_id();
-  $is_bokserice_page  = has_term( array( 'bokserice','orto-bokserice', 'bokserice-sastavi-paket' ), 'product_cat', $current_product_id );
+  $is_bokserice_page  = has_term( array( 'boxerky','orto-boxerky', 'boxerky-zostav-balenie' ), 'product_cat', $current_product_id );
 
   // Include review pools
   if ( ! $is_bokserice_page )  {
@@ -1203,10 +1203,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
       $is_bokserice = false;
       if ( $product_id ) {
-          $is_bokserice = has_term( array( 'bokserice','orto-bokserice', 'bokserice-sastavi-paket' ), 'product_cat', $product_id );
+          $is_bokserice = has_term( array( 'boxerky','orto-boxerky', 'boxerky-zostav-balenie' ), 'product_cat', $product_id );
       }
 
-      $cache_key = $transient_key . ( $is_bokserice ? '_bokserice' : '_all' );
+      $cache_key = $transient_key . ( $is_bokserice ? '_boxerky' : '_all' );
 
       if ( function_exists( 'get_transient' ) ) {
           $cached = get_transient( $cache_key );
@@ -1224,13 +1224,13 @@ document.addEventListener('DOMContentLoaded', function () {
       ];
 
       if ( $is_bokserice ) {
-          $args['category'] = [ 'bokserice' ];
+          $args['category'] = [ 'boxerky' ];
       } else {
           $args['tax_query'] = [
               [
                   'taxonomy' => 'product_cat',
                   'field'    => 'slug',
-                  'terms'    => [ 'bokserice' ],
+                  'terms'    => [ 'boxerky' ],
                   'operator' => 'NOT IN',
               ],
           ];
@@ -1262,11 +1262,11 @@ document.addEventListener('DOMContentLoaded', function () {
   /**
    * Load avatar images from theme folder and return URLs.
    * Expected folders:
-   *  - /auto_reviews/bokserice-slike/
-   *  - /auto_reviews/majice-slike/
+   *  - /auto_reviews/boxerky-slike/
+   *  - /auto_reviews/tricky-slike/
    */
-  function get_review_avatar_pool(string $type = 'majice'): array {
-    $type = ($type === 'bokserice') ? 'bokserice' : 'majice';
+  function get_review_avatar_pool(string $type = 'tricky'): array {
+    $type = ($type === 'boxerky') ? 'boxerky' : 'tricky';
 
     $dir_path = trailingslashit(get_stylesheet_directory()) . 'auto_reviews/' . $type . '-slike/';
     $dir_url  = trailingslashit(get_stylesheet_directory_uri()) . 'auto_reviews/' . $type . '-slike/';
