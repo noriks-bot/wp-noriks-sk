@@ -27,7 +27,7 @@ add_filter( 'woocommerce_gallery_image_size', function() {
 add_action('init', function () {
 	// Server-side redirect for NON-AJAX adds (highest priority wins)
 	add_filter('woocommerce_add_to_cart_redirect', function ($url) {
-		return home_url('/hr/cart/'); // or wc_get_cart_url()
+		return home_url('/sk/cart/'); // or wc_get_cart_url()
 	}, 9999);
 });
 
