@@ -223,7 +223,7 @@ get_header();
                         ">
                         <p class="announcement-bar__message">
                           <span>
-                            <a style="font-size: 1.2rem; "href="https://noriks.com/sk/product-category/bokserice/" title="">NORIKS • Pohodlie a zdravie na prvom mieste</a>
+                            <a style="font-size: 1.2rem; "href="https://noriks.com/sk/product-category/boxerky/" title="">NORIKS • Pohodlie a zdravie na prvom mieste</a>
                           </span>
                         </p>
                       </div>
@@ -253,7 +253,7 @@ get_header();
                         ">
                         <p class="announcement-bar__message">
                           <span>
-                            <a style="margin-top: 15px; padding-bottom: 5px;display: block; color: #121212; font-size:1.1rem;" href="https://noriks.com/sk/product-category/bokserice/" title="">Článok Men Cub › Mužské zdravie › Spodná bielizeň</a>
+                            <a style="margin-top: 15px; padding-bottom: 5px;display: block; color: #121212; font-size:1.1rem;" href="https://noriks.com/sk/product-category/boxerky/" title="">Článok Men Cub › Mužské zdravie › Spodná bielizeň</a>
                           </span>
                         </p>
                       </div>
@@ -406,7 +406,7 @@ get_header();
                     <p>Ak momentálne nosíte bavlnené alebo iné bežné boxerky, pozorne si prečítajte informácie na tejto stránke.</p>
                     <p>Ak stále nosíte tradičnú bavlnu alebo, čo je ešte horšie, syntetickú bielizeň z polyesteru, riskujete vážne zdravotné problémy.</p>
                   </div>
-                  <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary"> Skontrolovať dostupnosť </a>
+                  <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary"> Skontrolovať dostupnosť </a>
                 </div>
               </div>
             </div>
@@ -434,7 +434,7 @@ get_header();
                     </p>
                     <p>Vaša oblasť slabín je už teplá a vlhká. Tradičné tkaniny zadržiavajú teplo a vlhkosť, čím vytvárajú ideálne prostredie pre rast baktérií a plesní. Toto hromadenie tepla môže znížiť produkciu spermií a podporiť nadmerný rast mikroorganizmov.</p>
                   </div>
-                  <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary"> Skontrolovať dostupnosť </a>
+                  <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary"> Skontrolovať dostupnosť </a>
                 </div>
               </div>
             </div>
@@ -469,7 +469,7 @@ get_header();
                       <em>Boxerky NORIKS s ventiláciou a ultra mäkkým modalom pomáhajú udržať pokožku chladnú, suchú a chránenú.</em>
                     </p>
                   </div>
-                  <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary"> Skontrolovať dostupnosť </a>
+                  <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary"> Skontrolovať dostupnosť </a>
                 </div>
               </div>
             </div>
@@ -612,7 +612,7 @@ get_header();
                       <strong>Preto NORIKS boxerky nie sú len luxus, ale zdravotná nevyhnutnosť.</strong>
                     </p>
                   </div>
-                  <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary"> Skontrolovať dostupnosť </a>
+                  <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary"> Skontrolovať dostupnosť </a>
                 </div>
               </div>
             </div>
@@ -640,7 +640,7 @@ get_header();
                     <p>Oblasť slabín je už teplá a vlhká. Tradičná bavlna a polyester zadržiavajú teplo a vlhkosť — presne to, čo baktérie a plesne potrebujú na rozmnožovanie.</p>
                     <p>Hromadenie tepla môže znížiť tvorbu spermií a negatívne ovplyvniť mužské reprodukčné zdravie.</p>
                   </div>
-                  <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary"> Kúpiť NORIKS </a>
+                  <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary"> Kúpiť NORIKS </a>
                 </div>
               </div>
             </div>
@@ -674,7 +674,7 @@ get_header();
                       <strong>-Tepelná vyrážka (miliaria):</strong> Začepljeni kanalići znojnih žlijezda stvaraju bolne, svrbeće izbočine koje se mogu inficirati ako se češu.
                     </p>
                   </div>
-                  <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary"> Skontrolovať dostupnosť </a>
+                  <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary"> Skontrolovať dostupnosť </a>
                 </div>
               </div>
             </div>
@@ -697,14 +697,14 @@ get_header();
                   <h2 class="image-with-text__heading h2 rte title-with-highlight" style="--hightlight-color:#121212"> Ako NORIKS pomáha pri poškodení pokožky </h2>
                   <div class="image-with-text__text rte body">
                     <p>
-                      <strong>Inovativni ventilacijski sustav NORIKS</strong> sprječava pregrijavanje i održava kožu hladnom i suhom. Prirodna antimikrobna svojstva modal vlakana pomažu u borbi protiv bakterija i gljivica, pa ostaješ svjež dulje.
+                      <strong>Inovatívny ventilačný systém NORIKS</strong> zabraňuje prehriatiu a udržiava pokožku chladnú a suchú. Prirodzené antimikrobiálne vlastnosti modálových vlákien pomáhajú v boji proti baktériám a plesňiam, takže zostanete sviežy dlhšie.
                     </p>
-                    <p>Gruba, abrazivna vlakna trljaju kožu, uzrokuju mikroonštećenja i iritacije, što vodi do infekcija i upala.</p>
+                    <p>Hrubé, abrazívne vlákna drhnú pokožku, spôsobujú mikropoškodenia a podráždenie, čo vedie k infekciám a zápalom.</p>
                     <p>
-                      <strong>Ultra mekani NORIKS</strong> modal je glađi i tanji od pamuka, smanjuje trenje i štiti osjetljivu kožu.
+                      <strong>Ultra mäkký NORIKS</strong> modal je hladší a tenší ako bavlna, znižuje trenie a chráni citlivú pokožku.
                     </p>
                   </div>
-                  <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary"> Objednať NORIKS </a>
+                  <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary"> Objednať NORIKS </a>
                 </div>
               </div>
             </div>
@@ -724,35 +724,35 @@ get_header();
               <div style="width: 50%;" class="image-with-text__text-item grid__item">
                 <div class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container color-scheme-template--19454951555210__multirow_BXHadv color-custom gradient">
                   <p class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium"></p>
-                  <h2 class="image-with-text__heading h2 rte title-with-highlight" style="--hightlight-color:#121212"> Prije i poslije: Dokaz je u rezultatima </h2>
+                  <h2 class="image-with-text__heading h2 rte title-with-highlight" style="--hightlight-color:#121212"> Pred a po: Dôkaz je vo výsledkoch </h2>
                   <div class="image-with-text__text rte body">
                     <p>
-                      <strong>Prije NORIKS:</strong>
+                      <strong>Pred NORIKS:</strong>
                     </p>
                     <ul>
-                      <li>Červená, podráždená pokožka zbog stalnog trenja <br>
+                      <li>Červená, podráždená pokožka kvôli neustálemu treniu <br>
                       </li>
-                      <li>Uporne neugodne mirise <br>
+                      <li>Pretrvávajúce nepríjemné pachy <br>
                       </li>
-                      <li>Česte gljivične ili bakterijske infekcije <br>
+                      <li>Časté hubové alebo bakteriálne infekcie <br>
                       </li>
-                      <li>Bolni osipi koji otežavaju kretanje <br>
+                      <li>Bolestivé vyrážky, ktoré sťažujú pohyb <br>
                       </li>
                     </ul>
                     <p>
-                      <strong>Nakon NORIKS-a:</strong>
+                      <strong>Po NORIKS:</strong>
                     </p>
                     <ul>
                       <li>Zdravá pokožka bez podráždenia <br>
                       </li>
-                      <li>Prirodna otpornost na mirise <br>
+                      <li>Prirodzená odolnosť voči pachom <br>
                       </li>
-                      <li>Manji rizik od infekcija <br>
+                      <li>Menšie riziko infekcií <br>
                       </li>
-                      <li>Izvanredna udobnost i prozračnost</li>
+                      <li>Výnimočné pohodlie a priedušnosť</li>
                     </ul>
                   </div>
-                  <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary"> Objednať teraz </a>
+                  <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary"> Objednať teraz </a>
                 </div>
               </div>
             </div>
@@ -771,28 +771,28 @@ get_header();
               <div style="width: 50%;" class="image-with-text__text-item grid__item">
                 <div class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container color-scheme-template--19454951555210__multirow_BXHadv color-custom gradient">
                   <p class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium"></p>
-                  <h2 class="image-with-text__heading h2 rte title-with-highlight" style="--hightlight-color:#121212"> Zašto je NORIKS sigurniji izbor</h2>
+                  <h2 class="image-with-text__heading h2 rte title-with-highlight" style="--hightlight-color:#121212"> Prečo je NORIKS bezpečnejšia voľba</h2>
                   <div class="image-with-text__text rte body">
                     <ul>
                       <li>
-                        <strong>Prirodna antimikrobna zaštita</strong> pomaže u borbi protiv bakterija i gljivica. <br>
+                        <strong>Prirodzená antimikrobiálna ochrana</strong> pomáha v boji proti baktériám a plesňiam. <br>
                       </li>
                       <li>
-                        <strong>Izvrsna prozračnost</strong> održava kožu suhom i hladnom. <br>
+                        <strong>Vynikajúca priedušnosť</strong> udržiava pokožku suchú a chladnú. <br>
                       </li>
                       <li>
-                        <strong>Izvanredna mekoća </strong> smanjuje trenje i iritaciju. <br>
+                        <strong>Výnimočná mäkkosť </strong> znižuje trenie a podráždenie. <br>
                       </li>
                       <li>
-                        <strong>Regulacija temperature </strong> podržava reproduktivno zdravlje. <br>
+                        <strong>Regulácia teploty </strong> podporuje reprodukčné zdravie. <br>
                       </li>
                     </ul>
                     <p>
-                      <em>Svi navodi potkrijepljeni su objavljenim istraživanjima koja su dostupna na zahtjev.
-Individualni rezultati mogu se razlikovati. </em>
+                      <em>Všetky tvrdenia sú podložené publikovaným výskumami, ktoré sú dostupné na požiadanie.
+Individuálne výsledky sa môžu líšiť. </em>
                     </p>
                   </div>
-                  <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary"> Objednať NORIKS </a>
+                  <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary"> Objednať NORIKS </a>
                 </div>
               </div>
             </div>
@@ -831,17 +831,17 @@ Individualni rezultati mogu se razlikovati. </em>
         <div class="rich-text content-container color-custom color-scheme-template--19454951555210__rich_text_d3HeA8 gradient rich-text--full-width content-container--full-width section-template--19454951555210__rich_text_d3HeA8-padding">
           <div class="rich-text__wrapper rich-text__wrapper--center page-width">
             <div class="rich-text__blocks center animate-item">
-              <h2 style="margin-top: 25px; font-size: 2.2rem; line-height:1.1;" class="rich-text__heading rte h1 title-with-highlight" style="--hightlight-color:#6d388b"> Pridruži se tisućama koji su već prešli • 70% popusta na prvu narudžbu </h2>
+              <h2 style="margin-top: 25px; font-size: 2.2rem; line-height:1.1;" class="rich-text__heading rte h1 title-with-highlight" style="--hightlight-color:#6d388b"> Pridajte sa k tisíckam, ktorí už prešli • 70% zľava na prvú objednávku </h2>
               <div class="rich-text__text rte">
                 <h2 class="second-h2" style=" font-size: 1.7rem; line-height:1.1;" >
-                  <strong>6-mjesečno jamstvo protiv rupa • 30-dnevno probno razdoblje bez rizika</strong>
+                  <strong>6-mesačná záruka proti dieram • 30-dňové skúšobné obdobie bez rizika</strong>
                 </h2>
               </div>
               <div style="margin-top: 15px;" class="rich-text__buttons">
-                <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary">Objednať teraz i zaštiti svoje zdravlje</a>
+                <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary">Objednať teraz i zaštiti svoje zdravlje</a>
               </div>
               <div class="rich-text__text rte">
-                <p>Više od 2.225.000 muškaraca već je prešlo na NORIKS. Ne čekaj da se pojave osipi, infekcije ili neugodni mirisi.</p>
+                <p>Viac ako 2 225 000 mužov už prešlo na NORIKS. Nečakajte, kým sa objavia vyrážky, infekcie alebo nepríjemné pachy.</p>
               </div>
             </div>
           </div>
@@ -964,19 +964,19 @@ Individualni rezultati mogu se razlikovati. </em>
           <div class="rich-text__wrapper rich-text__wrapper--center page-width">
             <div class="rich-text__blocks center animate-item">
               <div class="rich-text__text rte">
-                <p>Ako želiš pročitati više recenzija i naručiti svoje bokserice, <strong>posjeti njihovu web stranicu</strong>.
+                <p>Ak si chcete prečítať viac recenzií a objednať si svoje boxerky, <strong>navštívte ich webovú stránku</strong>.
                 </p>
               </div>
               <div class="rich-text__buttons">
-                <a href="https://noriks.com/sk/product-category/bokserice/" class="button button--primary">Skontrolovať dostupnosť >></a>
+                <a href="https://noriks.com/sk/product-category/boxerky/" class="button button--primary">Skontrolovať dostupnosť >></a>
               </div>
               <div class="rich-text__text rte">
                 <h6>
-                  <strong>Sva prava pridržana, NORIKS</strong>
+                  <strong>Všetky práva vyhradené, NORIKS</strong>
                 </h6>
        
                 <h6>
-                 Najbolje što muškarac može nositi.
+                 To najlepšie, čo muž môže nosiť.
                 </h6>
            
               </div>
@@ -1060,7 +1060,7 @@ Individualni rezultati mogu se razlikovati. </em>
                         ">
                         <p class="announcement-bar__message">
                           <span>
-                            <a style="font-size: 1.2rem;" href="https://noriks.com/sk/product-category/bokserice/" title="">70% popusta danas → 30-dnevno probno razdoblje bez rizika</a>
+                            <a style="font-size: 1.2rem;" href="https://noriks.com/sk/product-category/boxerky/" title="">70% popusta danas → 30-dnevno probno razdoblje bez rizika</a>
                           </span>
                         </p>
                       </div>
