@@ -38,7 +38,7 @@ get_header(); ?>
   <div class="hero__media" aria-hidden="true">
     <!-- Replace with your image -->
     <img
-      src="/hr/wp-content/themes/noriks/img/noriks-hero.jpeg"
+      src="/sk/wp-content/themes/noriks/img/noriks-hero.jpeg"
       alt=""
     />
   </div>
@@ -182,7 +182,7 @@ get_header(); ?>
 
   <div class="collections__grid">
     <!-- Card 1 -->
-    <a class="collection-card" href="/sk/product-category/majice/">
+    <a class="collection-card" href="/sk/product-category/tricky/">
       <div class="collection-card__media">
         <img
           src="/sk/wp-content/themes/noriks/img/noriks-majice.jpeg"
@@ -205,7 +205,7 @@ get_header(); ?>
     </a>
 
     <!-- Card 2 -->
-    <a class="collection-card" href="/sk/product-category/bokserice/">
+    <a class="collection-card" href="/sk/product-category/boxerky/">
       <div class="collection-card__media">
         <img
           src="/sk/wp-content/themes/noriks/img/noriks-boksarice.jpeg"
@@ -229,7 +229,7 @@ get_header(); ?>
     </a>
 
     <!-- Card 3 -->
-    <a class="collection-card" href="/sk/product-category/kompleti/">
+    <a class="collection-card" href="/sk/product-category/supravy/">
       <div class="collection-card__media">
         <img
           src="/sk/wp-content/themes/noriks/img/noriks-kompleti.jpeg"
@@ -252,8 +252,8 @@ Najlepšia hodnota za balenie.
       </div>
     </a>
     
-    <!-- Card 3 -->
-    <a class="collection-card" href="/sk/product-category/starter-paketi/">
+    <!-- Card 4 -->
+    <a class="collection-card" href="/sk/product-category/startovaci-balik/">
       <div class="collection-card__media">
         <img
           src="/sk/wp-content/themes/noriks/img/starter-paket_.jpeg"
@@ -743,13 +743,13 @@ a:hover {
                   if ( $alt_output == false ):
 
                     $current_product_id = $product->get_id();
-                    $is_boxers = has_term( array('bokserice','bokserice-sastavi-paket'), 'product_cat', $current_product_id );
+                    $is_boxers = has_term( array('boxerky','boxerky-zostav-balenie'), 'product_cat', $current_product_id );
 
                     if ( $is_boxers ):
                       if ( has_term('black-friday', 'product_cat', $current_product_id ) ):
                         $topseler_text = "Black Friday ";
                       else:
-                        $topseler_text = get_field("singlepp_priceper_before","options") . " " . $tmp_price . " " . "€ po boksericama";
+                        $topseler_text = get_field("singlepp_priceper_before","options") . " " . $tmp_price . " " . "€ za boxerky";
                       endif;
                     else:
                       $topseler_text = get_field("singlepp_priceper_before","options") . " " . $tmp_price . " " . get_field("singlepp_priceper_after","options");
