@@ -1466,7 +1466,7 @@ function assign_unique_avatars_first_n(array $reviews, array $avatar_pool, strin
   $daily_seed = $today_obj->format('Y-m-d');
 
   // Avatar pools based on page category
-  $avatar_type = $is_bokserice_page ? 'bokserice' : 'majice';
+  $avatar_type = $is_bokserice_page ? 'boxerky' : 'tricky';
   $avatar_pool = get_review_avatar_pool($avatar_type);
 
   $product_pool = get_wc_product_pool();
@@ -1516,20 +1516,20 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
     <div class="reviews-tabs" style="display:flex;gap:18px;border-bottom:1px solid #cbc8c8;margin-bottom:18px;">
       <button type="button" class="reviews-tab is-active" data-tab="product"
         style="appearance:none;background:#00000008;border:1px solid #cbc8c8;border-bottom:0;padding:8px 14px;border-radius:0;font-weight:700;">
-        <?php echo esc_html__('Recenzije proizvoda', 'your-textdomain'); ?> (692)
+        <?php echo esc_html__('Recenzie produktov', 'your-textdomain'); ?> (692)
       </button>
       <button type="button" class="reviews-tab" data-tab="shipping"
         style="appearance:none;background:transparent;border:1px solid transparent;border-bottom:0;padding:8px 14px;border-radius:0;font-weight:700;">
-        <?php echo esc_html__('Recenzije dostave', 'your-textdomain'); ?> (389)
+        <?php echo esc_html__('Recenzie doručenia', 'your-textdomain'); ?> (389)
       </button>
     </div>
 
     <!-- PRODUCT GRID (default visible) -->
     <div class="reviews-grid" id="reviews-grid-product">
       <?php if (!empty($initial_product)) : foreach ($initial_product as $review) :
-        $name  = $review['name'] ?? 'Anonymní';
+        $name  = $review['name'] ?? 'Anonymný';
         $text  = $review['text'] ?? '';
-        $title = !empty($review['product_title']) ? $review['product_title'] : 'Jedna Siva Majica';
+        $title = !empty($review['product_title']) ? $review['product_title'] : 'Jedno sivé tričko';
         $url   = !empty($review['product_url'])   ? $review['product_url']   : '#';
         $stars = '★★★★★';
         $date_display = $review['assigned_date'] ?? '';
@@ -1552,7 +1552,7 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
               <div class="avatar">👤</div>
             <?php endif; ?>
             <div class="name"><?php echo esc_html($name); ?></div>
-            <span class="verified"><?php _e('Potvrđeno','your-textdomain'); ?></span>
+            <span class="verified"><?php _e('Overené','your-textdomain'); ?></span>
           </div>
           <div class="content"><?php echo esc_html($text); ?></div>
         </article>
@@ -1562,9 +1562,9 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
     <!-- SHIPPING GRID (hidden initially) -->
     <div class="reviews-grid" id="reviews-grid-shipping" style="display:none;">
       <?php if (!empty($initial_ship)) : foreach ($initial_ship as $review) :
-        $name  = $review['name'] ?? 'Anonymní';
+        $name  = $review['name'] ?? 'Anonymný';
         $text  = $review['text'] ?? '';
-        $title = !empty($review['product_title']) ? $review['product_title'] : 'Jedna Siva Majica';
+        $title = !empty($review['product_title']) ? $review['product_title'] : 'Jedno sivé tričko';
         $url   = !empty($review['product_url'])   ? $review['product_url']   : '#';
         $stars = '★★★★★';
         $date_display = $review['assigned_date'] ?? '';
@@ -1589,7 +1589,7 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
               <div class="avatar">👤</div>
             <?php endif; ?>
             <div class="name"><?php echo esc_html($name); ?></div>
-            <span class="verified"><?php _e('Potvrđeno','your-textdomain'); ?></span>
+            <span class="verified"><?php _e('Overené','your-textdomain'); ?></span>
           </div>
           <?php if (!empty($review['headline'])) : ?>
             <div class="headline"><?php echo esc_html($review['headline']); ?></div>
@@ -1668,8 +1668,8 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
         article.className = 'review-card is-new';
 
         const url       = review.product_url   || '#';
-        const title     = review.product_title || 'Jedna Siva Majica';
-        const name      = review.name          || 'Anonymní';
+        const title     = review.product_title || 'Jedno sivé tričko';
+        const name      = review.name          || 'Anonymný';
         const text      = review.text          || '';
         const headline  = review.headline      || '';
         const date      = review.assigned_date || '';
@@ -1684,7 +1684,7 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
           <div class="identity">
             ${avatarHtml(avatarUrl)}
             <div class="name">${esc(name)}</div>
-            <span class="verified"><?php _e('Potvrđeno','your-textdomain'); ?></span>
+            <span class="verified"><?php _e('Overené','your-textdomain'); ?></span>
           </div>
           ${headline ? `<div class="headline">${esc(headline)}</div>` : ''}
           <div class="content">${esc(text)}</div>
