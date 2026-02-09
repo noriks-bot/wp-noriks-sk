@@ -211,7 +211,7 @@ if (  has_term( array( 'tricky' ), 'product_cat', get_the_id() )  ||  has_term( 
         <video
           autoplay muted loop playsinline
           class="why-video">
-          <source src="https://noriks.com/hr/wp-content/uploads/2025/09/noriks_gif_hr_2-1.mp4" type="video/mp4">
+          <source src="/sk/wp-content/uploads/2025/09/noriks_gif_hr_2-1.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
