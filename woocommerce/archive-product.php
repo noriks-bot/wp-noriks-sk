@@ -46,23 +46,23 @@ function is_active_menu_item( $path ) {
 <nav class="category-menu">
   <ul>
     <li class="<?php echo is_shop() ? 'active' : ''; ?>">
-      <a href="/hr/shop">Svi produkti</a>
+      <a href="/sk/shop">Všetky produkty</a>
     </li>
 
-    <li class="<?php echo is_active_menu_item('/product-category/majice') ? 'active' : ''; ?>">
-      <a href="/hr/product-category/majice/">Majice</a>
+    <li class="<?php echo is_active_menu_item('/product-category/tricky') ? 'active' : ''; ?>">
+      <a href="/sk/product-category/tricky/">Tričká</a>
     </li>
 
-    <li class="<?php echo is_active_menu_item('/product-category/bokserice') ? 'active' : ''; ?>">
-      <a href="/hr/product-category/bokserice/">Bokserice</a>
+    <li class="<?php echo is_active_menu_item('/product-category/boxerky') ? 'active' : ''; ?>">
+      <a href="/sk/product-category/boxerky/">Boxerky</a>
     </li>
 
-    <li class="<?php echo is_active_menu_item('/product-category/kompleti') ? 'active' : ''; ?>">
-      <a href="/hr/product-category/kompleti/">Kompleti</a>
+    <li class="<?php echo is_active_menu_item('/product-category/supravy') ? 'active' : ''; ?>">
+      <a href="/sk/product-category/supravy/">Súpravy</a>
     </li>
 
-    <li class="<?php echo is_active_menu_item('/product-category/carape') ? 'active' : ''; ?>">
-      <a href="/hr/product-category/carape/">Čarape</a>
+    <li class="<?php echo is_active_menu_item('/product-category/ponozky') ? 'active' : ''; ?>">
+      <a href="/sk/product-category/ponozky/">Ponožky</a>
     </li>
   </ul>
 </nav>
@@ -246,7 +246,7 @@ function is_active_menu_item( $path ) {
 <section class="one-banner-shop" style="position: relative; margin: 0 auto; padding: 0;">
 
   <img
-    src="/hr/wp-content/themes/noriks/img/noriks-shop.png"
+    src="/sk/wp-content/themes/noriks/img/noriks-shop.png"
     style="display:block; width:100%; min-height:105px; border-radius:0;"
     alt=""
   >
@@ -358,32 +358,32 @@ if ( is_shop() ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2"]');
 
-// CATEGORY: /bokserice + ALL CHILD CATEGORIES
-} elseif ( is_product_category_or_child('bokserice') ) {
+// CATEGORY: /boxerky + ALL CHILD CATEGORIES
+} elseif ( is_product_category_or_child('boxerky') ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2-2-2"]');
 
 // CATEGORY GROUP
 } elseif (
     is_product_category_or_child('bestsellers') ||
-    is_product_category_or_child('veliki-paketi') ||
-    is_product_category_or_child('starter-paketi')
+    is_product_category_or_child('velke-balenia') ||
+    is_product_category_or_child('startovaci-balik')
 ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2-3"]');
 
-// CATEGORY: /majice + children
-} elseif ( is_product_category_or_child('majice') ) {
+// CATEGORY: /tricky + children
+} elseif ( is_product_category_or_child('tricky') ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2-2"]');
 
-// CATEGORY: /kompleti + children
-} elseif ( is_product_category_or_child('kompleti') ) {
+// CATEGORY: /supravy + children
+} elseif ( is_product_category_or_child('supravy') ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset"]');
 
-// CATEGORY: /carape + children
-} elseif ( is_product_category_or_child('carape') ) {
+// CATEGORY: /ponozky + children
+} elseif ( is_product_category_or_child('ponozky') ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2"]');
 
