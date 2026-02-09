@@ -1140,7 +1140,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if ( ! $is_bokserice_page )  {
     include get_stylesheet_directory() . '/auto_reviews/'.$reviews_language.'.php';
   } else {
-    include get_stylesheet_directory() . '/auto_reviews/HR_bokserice.php';
+    include get_stylesheet_directory() . '/auto_reviews/SK_boxerky.php';
   }
 
   include get_stylesheet_directory() . '/auto_reviews/'.$reviews_language.'-2.php';
